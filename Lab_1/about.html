@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
 <!--
-
 First Website
 and comment
 in html
 (comments can span multiple lines)
-
 -->
 
 <!-- This is the head -->
 <!-- All styles and javascript go inside the head -->
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <head>
         <meta charset="utf-8" />
         <title> Bradley Peppmuller: Personal Website </title>
-        
-    </head>
+        a:active {
+    color: yellow;
+} 
+</head>
 <!-- closing head -->
 
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
     <body>
         <header> 
+        
         <h1> Bradley Peppmuller </h1>
+        
         </header>
         <nav>
             <hr width="50%"/>
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
+            <a id="current"href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
         <br /> <br />
@@ -35,7 +39,7 @@ in html
             <table>
                 <tr id="table header">
                     <td><strong>DAW</strong></td>
-                    <td><strong>Years Experience</strong></td>
+                    <td><strong>Years of Experience</strong></td>
                 </tr>
                 <tr class = "table-row">
                     <td>Protools</td>
@@ -51,10 +55,10 @@ in html
                 </tr>
             </table>
             <ul>
-                <li>Video games: I own a PS4 and mainly play Rocket League</li>
-                <li>Football: I played football in highschool but now I just watch it.</li>
-                <li>Guitar: I have played the guitar since I was 8 years old.</li>
-                <li>Programing: I am new to programing but I enjoy learning about it everyday</li>
+                <li><span class = "hobby">Video games</span>: I own a PS4 and mainly play Rocket League</li>
+                <li><span class = "hobby">Football</span>: I played football in highschool but now I just watch it.</li>
+                <li><span class = "hobby">Guitar</span>: I have played the guitar since I was 8 years old.</li>
+                <li><span class = "hobby">Programing</span>: I am new to programing but I enjoy learning about it everyday</li>
             </ul>
             </div>
         
@@ -65,13 +69,13 @@ in html
         <footer>
         <hr>
         CST 336. 2018&copy; Peppmuller<br />
-        <strong>Disclaimer:</strong> The information on this page is very real. <br />
-        It is used for academic purposes only
-            
+        <strong>Disclaimer:</strong> The information on this page is not real. <br />
+        It is used for academic purposes only<br />
+            <figure>
+                <img src="img/csumbphoto.png" alt="CSUMB logo"/>
+            </figure> 
         </footer>
         <!-- closing footer -->
         
     </body>
     <!-- closing body -->
-
-</html>

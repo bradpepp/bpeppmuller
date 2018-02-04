@@ -11,9 +11,14 @@ in html
 
 <!-- This is the head -->
 <!-- All styles and javascript go inside the head -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <head>
         <meta charset="utf-8" />
         <title> Bradley Peppmuller: Personal Website </title>
+
+ 
+        
         
     </head>
 <!-- closing head -->
@@ -21,12 +26,13 @@ in html
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
     <body>
+        
         <header> 
         <h1> Bradley Peppmuller </h1>
         </header>
         <nav>
             <hr width="50%"/>
-            <a href="index.html">Home</a>
+            <a id="current" href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
@@ -34,11 +40,11 @@ in html
         
         <main>
         
-            <figure>
-                <img src="img/Picture_for_website.jpg" alt="Picture of Bradley "/>
+            <figure id="me">
+                <img id ="myPicture" src="img/Picture_for_website.jpg" alt="Picture of Bradley "/>
             </figure>
             
-            <div>
+            <div id = "Welcome">
                 Hello!<br />
                 <p> Thank you for visiting my website</p>
                 <p> I am a student studying recording technology with a minor study in computer science.</p>
@@ -46,18 +52,23 @@ in html
             <br /> <br />
             <em> "When you’re young, you’re not afraid of what comes next. You’re <strong>excited</strong> by it. ~ Dave Grohl" </em>
             </div>
+           
+            
         </main>
         
-        
+         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
         <hr>
         CST 336. 2018&copy; Peppmuller<br />
-        <strong>Disclaimer:</strong> The information on this page is very real. <br />
-        It is used for academic purposes only
-            
+        <strong>Disclaimer:</strong> The information on this page is not real. <br />
+        It is used for academic purposes only<br />
+          <figure>
+                <img src="img/csumbphoto.png" alt="CSUMB logo"/>
+            </figure>  
         </footer>
+        
         <!-- closing footer -->
         
     </body>
