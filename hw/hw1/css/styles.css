@@ -1,0 +1,72 @@
+body{
+    background-color:Black;
+    color:white;
+}
+#ProBody{
+    background-color:#1d0049;
+    color:white;
+}
+#LogicBody{
+    background-color:#3a0707;
+    color:white;
+}
+#Flbody{
+  background-color:#474704;
+    color:white;
+}
+header, nav,main, footer{
+    text-align: center;
+}
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration: none;
+    color:white;
+}
+nav a:hover{
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+footer{
+    clear: left;
+    color:yellow;
+    font-size: 0.8em;
+}
+h1{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+a:active {
+    color: yellow;
+} 
+#current{
+    color:yellow;
+}
+#Logo{
+    float:left;
+}
+#homeText{
+    font-size: larger;
+}
+p{
+    font-size: large;
+    text-align: left;
+    cursor: move;
+}
+a{
+    font-size:large;
+    text-decoration: none;
+    color:white;
+    letter-spacing: 5px;
+}
+a:hover{
+    border-bottom: 2px orange solid;
+    font-size: 1.5em;
+    transition: .9s;
+}
+#navbar{
+    width: 65%;
+}
