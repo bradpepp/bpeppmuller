@@ -10,9 +10,10 @@ include 'inc/functions.php';
         <title> Lab 2: 777 Slot Machine </title>
         <meta charset="utf-8"/>
     </head>
-    <body>
+    <body id = <?php echo $name; ?>
         <div id="main">
         <?php
+        
         play();
         ?>
          <form>

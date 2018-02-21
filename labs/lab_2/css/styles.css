@@ -40,7 +40,7 @@
         position:absolute;
         font-size:1.3em;
         border:none;
-        
+        background-color: transparent;
         font-weight:bold;
         color:yellow;
         cursor:pointer;
