@@ -38,3 +38,26 @@
 [21-Feb-2018 09:16:17 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in /home/ubuntu/workspace/bpeppmuller/hw/hw2/inc/functions.php on line 9
 [21-Feb-2018 09:16:17 UTC] PHP Stack trace:
 [21-Feb-2018 09:16:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/hw/hw2/index.php:0
+[14-Mar-2018 03:03:39 UTC] PHP Fatal error:  Call to undefined function checkCategory() in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 28
+[14-Mar-2018 03:03:39 UTC] PHP Stack trace:
+[14-Mar-2018 03:03:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php:0
+[14-Mar-2018 03:03:44 UTC] PHP Fatal error:  Call to undefined function checkCategory() in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 28
+[14-Mar-2018 03:03:44 UTC] PHP Stack trace:
+[14-Mar-2018 03:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php:0
+[14-Mar-2018 03:03:46 UTC] PHP Fatal error:  Call to undefined function checkCategory() in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 28
+[14-Mar-2018 03:03:46 UTC] PHP Stack trace:
+[14-Mar-2018 03:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php:0
+[14-Mar-2018 04:06:56 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 14
+[14-Mar-2018 04:06:56 UTC] PHP Stack trace:
+[14-Mar-2018 04:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php:0
+[14-Mar-2018 04:06:56 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 14
+[14-Mar-2018 04:06:56 UTC] PHP Stack trace:
+[14-Mar-2018 04:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php:0
+[14-Mar-2018 04:06:56 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 33
+[14-Mar-2018 04:06:56 UTC] PHP Stack trace:
+[14-Mar-2018 04:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php:0
+[14-Mar-2018 04:23:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 98
+[14-Mar-2018 13:39:05 UTC] PHP Parse error:  syntax error, unexpected 'respected' (T_STRING) in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 80
+[14-Mar-2018 14:15:31 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 197
+[14-Mar-2018 16:04:30 UTC] PHP Parse error:  syntax error, unexpected '$_Get' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 145
+[14-Mar-2018 16:42:03 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/bpeppmuller/hw/hw3/index.php on line 202
