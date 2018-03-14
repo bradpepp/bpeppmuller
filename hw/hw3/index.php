@@ -264,6 +264,11 @@
          }
         }
         ?>
-        
+        <footer>
+        <hr>
+            CST 336 Internet Programming 2018&copy; Bradley Peppmuller <br />
+            <strong> Disclaimer: </strong> This webpage is used for academic purposes only. <br />
+            
+    </footer>
     </body>
 </html>
