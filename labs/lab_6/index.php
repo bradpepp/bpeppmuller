@@ -2,7 +2,7 @@
 
     include '../../dbConnection.php';
     
-    $conn = getConnection("ottermart");
+    $conn = getConnection("heroku_d151356f269fc75");
 
    
     
