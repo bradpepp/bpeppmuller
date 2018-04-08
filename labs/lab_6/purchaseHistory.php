@@ -1,7 +1,7 @@
 <?php
     include '../../dbConnection.php';
     
-    $conn = getConnection("heroku_d151356f269fc75");
+    $conn = getConnection("ottermart");
     
     $productId = $_GET['productId'];
     

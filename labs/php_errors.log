@@ -419,3 +419,9 @@ Stack trace:
 [04-Apr-2018 17:53:22 UTC] PHP Fatal error:  Call to undefined function geteConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_6/purchaseHistory.php on line 4
 [04-Apr-2018 17:53:22 UTC] PHP Stack trace:
 [04-Apr-2018 17:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_6/purchaseHistory.php:0
+[08-Apr-2018 04:13:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_d151356f269fc75'' in /home/ubuntu/workspace/bpeppmuller/dbConnection.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/bpeppmuller/dbConnection.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/bpeppmuller/labs/lab_6/index.php(5): getConnection('heroku_d151356f...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/bpeppmuller/dbConnection.php on line 10
