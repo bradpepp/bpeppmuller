@@ -1,0 +1,16 @@
+h1, body, form
+{
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 75px;
+}
+
+body
+{
+    font-size: 20px;
+    background-color: yellow;
+}

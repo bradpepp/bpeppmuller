@@ -1,7 +1,7 @@
 <?php
 
 
-    function getDatabaseConnection($dbName) {
+    function getConnection($dbName) {
 
          $host = "localhost";
          $dbname = $dbName;
