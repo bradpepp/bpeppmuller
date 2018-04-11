@@ -425,3 +425,25 @@ Stack trace:
 #1 /home/ubuntu/workspace/bpeppmuller/labs/lab_6/index.php(5): getConnection('heroku_d151356f...')
 #2 {main}
   thrown in /home/ubuntu/workspace/bpeppmuller/dbConnection.php on line 10
+[09-Apr-2018 21:17:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php on line 9
+[09-Apr-2018 21:17:28 UTC] PHP Stack trace:
+[09-Apr-2018 21:17:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php:0
+[09-Apr-2018 21:17:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php on line 9
+[09-Apr-2018 21:17:53 UTC] PHP Stack trace:
+[09-Apr-2018 21:17:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php:0
+[09-Apr-2018 21:18:26 UTC] PHP Fatal error:  Call to undefined function dbConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php on line 9
+[09-Apr-2018 21:18:26 UTC] PHP Stack trace:
+[09-Apr-2018 21:18:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php:0
+[09-Apr-2018 21:18:28 UTC] PHP Fatal error:  Call to undefined function dbConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php on line 9
+[09-Apr-2018 21:18:28 UTC] PHP Stack trace:
+[09-Apr-2018 21:18:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php:0
+[09-Apr-2018 21:19:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php on line 35
+[09-Apr-2018 21:19:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php(35): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php on line 35
