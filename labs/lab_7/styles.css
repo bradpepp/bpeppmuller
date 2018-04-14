@@ -1,0 +1,13 @@
+h1, body
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit]
+{
+    background-color: #0298C9;
+    color: white;
+    font-size: 14px;
+}
+

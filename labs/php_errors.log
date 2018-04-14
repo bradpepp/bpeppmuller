@@ -447,3 +447,9 @@ Stack trace:
 #0 /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php(35): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php on line 35
+[14-Apr-2018 19:46:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php on line 9
+[14-Apr-2018 19:46:24 UTC] PHP Stack trace:
+[14-Apr-2018 19:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_7/loginProcess.php:0
+[14-Apr-2018 20:28:29 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_7/updateProduct.php on line 4
+[14-Apr-2018 20:28:29 UTC] PHP Stack trace:
+[14-Apr-2018 20:28:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_7/updateProduct.php:0
