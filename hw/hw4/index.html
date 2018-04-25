@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" type="text/css" href="rps.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+	</head>
+	<body onload="init()">
+		<div id="gameWindow">
+			<div id = "introScreen">
+				<div id = "introScreenContent">
+					<h1>Rock Paper Scissors</h1>
+					<div id = "startButton" class = "button" onclick = "startGame()">Start Game!</div>
+				</div>
+			</div>
+			
+			<div id = "endScreen">
+				<div id = "endScreenContent">
+					<h1 id = "txtEndTitle">Something beats something.</h1>
+					<h2 id = "txtEndMessage">You win, lose, or tie.</h2>
+					<div id = "replayButton" class = "button" onclick = "replay()">Play Again!</div>
+				</div>
+			</div>
+			
+			<div id="goButton" onclick = "go()">GO</div>
+
+			<div id="playerPanel" style = "float: 600px;">
+				<h2>Player</h2>
+				<img id="imgPlayer" src="images/question.png">
+				<br><br>
+				<div id = "rock" style = "float: left; width: 65px;">
+					<button id = "rockButton" class = "iconButton"><img src = "images/rock.png"><br/>Rock</button>
+				</div>
+				<div id = "paper" style = "float: left; width: 65px;">
+					<button id = "paperButton" class = "iconButton"><img src = "images/paper.png"><br/>Paper</button>
+				</div>
+				<div id = "scissors" style = "float: left; width: 65px;">
+					<button id = "scissorsButton" class = "iconButton"><img src = "images/scissors.png"><br/>Scissors</button>
+				</div>
+			</div>
+
+			<div id="computerPanel">
+				<h2>Computer</h2>
+				<img id="imgComputer" src="images/question.png">
+				<br><br>
+				<div id="lblRock" class="iconLabel">
+					<img src="images/rock.png">
+					<br>Rock
+				</div>
+				<div id="lblPaper" class="iconLabel">
+					<img src="images/paper.png">
+					<br>Paper
+				</div>
+				<div id="lblScissors" class="iconLabel">
+					<img src="images/scissors.png">
+					<br>Scissors
+				</div>
+			</div>
+
+			
+		</div>
+		
+		<script language="javascript" type="text/javascript" src="rps.js"></script>
+		
+	</body>
+	<footer>
+		<hr>
+            CST 336 Internet Programming 2018&copy; Bradley Peppmuller <br />
+            <strong> Disclaimer: </strong> This info is for academic purposes. <br />
+           
+	</footer>
+
+</html>
+
