@@ -1,0 +1,59 @@
+h1
+{
+    font-family: 'Francois One', sans-serif;
+    font-size: 50px;
+}
+
+body
+{
+    text-align: center;
+    background-color:  #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+form
+{
+    text-align: left;
+}
+
+#submit
+{
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 14pt;
+	background-color: #888888;
+	color: white;
+	margin: 0 auto;
+}
+
+input[type=text]
+{
+    width: 25%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password]
+{
+    width: 25%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#image
+{
+    float: right;
+}
+
+footer
+{
+    font-family: 'Francois One', sans-serif;
+    font-size: 15px;
+}
+
+#legend
+{
+    font-weight: bold;
+}

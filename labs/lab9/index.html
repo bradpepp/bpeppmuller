@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AJAX: Sign Up Page</title>
+        <style>
+        @import url("css/styles.css");
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script>
+        
+            function validateForm() {
+                
+                return false;
+           
+            }
+            
+        </script>
+        
+        <script>
+            
+            
+            $(document).ready( function(){
+                
+                //EVENTS
+                $("#zipCode").change( function(){  
+                    //alert( $("#zipCode").val() );
+                    
+                    $.ajax({
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                        dataType: "json",
+                        data: { "zip": $("#zipCode").val() },
+                        success: function(data,status) {
+                            if(data == false)
+                            {
+                                $("#zipCodeMsg").html("Invalid zipcode.");
+                                $("#zipCodeMsg").css('color', 'red');
+                                
+                            }
+                            else
+                            {
+                                $("#zipCodeMsg").html("");
+                                $("#city").html(data.city);
+                                $("#latitude").html(data.latitude);
+                                $("#longitude").html(data.longitude);
+                            }
+                            //alert(data.city);
+
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//ajax
+                    
+                } ); //#zipCode Event 
+
+                $("#state").change( function(){
+                    //alert($("#state").val());
+                    
+                    $.ajax({
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        dataType: "json",
+                        data: { "state": $("#state").val() },
+                        success: function(data,status) {
+                            //alert(data[0].county);
+                            
+                            $("#county").html("<option>Select One</option>");
+                            
+                            for(var x = 0; x < data.length; x++)
+                            {
+                                $("#county").append("<option>" + data[x].county + "</option>");
+                            }
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//ajax
+                })
+
+                $("#username").change( function()
+                {
+                    // alert("hello");
+                    $.ajax({
+                        type: "GET",
+                        url: "checkUsernameAPI.php",
+                        dataType: "json",
+                        data: { "username": $("#username").val() },
+                        success: function(data,status) {
+                            // alert(data);
+                            
+                            if(data == false)   //if data is false
+                            {
+                                $("#usernameMsg").html("Username is available!");
+                                // alert("Username is available.");
+                                
+                                $("#usernameMsg").css('color','green');
+                            }
+                            else
+                            {
+                                $("#usernameMsg").html("Username is already taken!");
+                                // alert("Username is already taken.");
+                                
+                                $("#usernameMsg").css('color','red');
+                            }
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    });//ajax
+                })
+                
+                // $("#password2").change( function()
+                // {
+                //     if($("#password1").val() != $("#password2").val())
+                //     {
+                //         $("#passwordMsg").html("Retype password");
+                //         $("#passwordMsg").css('color','red');
+                //     } else {
+                //         $("#passwordMsg").html("");
+                //     }
+                // })
+                $("#submit").click( function() {
+                   var username = $("#username").val();
+                   var password = $("#password1").val();
+                   var zipCode = $("#zipCode").val();
+                   var fName = $("#firstName").val();
+                   var lName = $("#lastName").val();
+                   if (username == "") {
+                       $("#usernameMsg").html("Please enter a username.");
+                       $("#usernameMsg").css('color', 'red');
+                       return;
+                   }
+                   else {
+                       $("#usernameMsg").html("");
+                   }
+                   if (zipCode == "") {
+                       $("#zipCodeMsg").html("Please enter a zip code.");
+                       $("#zipCodeMsg").css('color', 'red');
+                       return;
+                   }
+                   else
+                   {
+                       $("#zipCodeMsg").html("");
+                   }
+                   if (password == "") {
+                       $("#passwordMsg").html("Please enter a password.");
+                       $("#passwordMsg").css('color', 'red');
+                       return;
+                   }
+                   else if(password2 == "") {
+                       $("#passwordMsg2").html("Please enter a password.");
+                       $("#passwordMsg2").css('color', 'red');
+                       return;
+                   }
+                   else
+                   {
+                       $("#passwordMsg").html("");
+                       $("#passwordMsg2").html("");
+                   }
+                   if (fName.length == 0) {
+                       $("#submitMsg").html("Please enter a first name.");
+                       $("#submitMsg").css('color', 'red');
+                       return;
+                   }
+                   if (lName.length == 0) {
+                       $("#submitMsg").html("Please enter a last name.");
+                       $("#submitMsg").css('color', 'red');
+                       return;
+                   }
+                   if (password != $("#password2").val()) {
+                       $("#passwordMsg").html("Passwords don't match.");
+                       $("#passwordMsg").css('color', 'red');
+                       return;
+                   }
+                   if(password == $("#password2").val()) {
+                       $("#passwordMsg").html("");
+                       $("#passwordMsg2").html("");
+                   }
+                //   alert("hello");
+                   $.ajax({
+                    type: "GET",
+                    url: "addUserAPI.php",
+                    dataType: "json",
+                    data: { "firstName": fName, "lastName": lName, "username": username, "password": password, "zipCode": zipCode},
+                    success: function(data,status) {
+                    // alert(data);
+                        if(data)
+                        {
+                            $("#submitMsg").html("Record added!");
+                            $("#submitMsg").css('color', 'green');
+                        }
+                        else
+                        {
+                            $("#submitMsg").html("Error adding record");
+                            $("#submitMsg").css('color', 'red');
+                        }
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
+                    //alert(status);
+                    }
+                    
+                    });//ajax
+                });
+            } ); //documentReady
+            
+            
+        </script>
+
+    </head>
+
+    <body>
+    
+       <h1> Sign Up Form </h1>
+    
+        <form onsubmit="return validateForm()">
+            <fieldset>
+          
+               <legend id = "legend">Input your Data </legend>
+                First Name:  <input type="text" id = "firstName"><br> 
+                Last Name:   <input type="text" id = "lastName"><br> 
+                Email:       <input type="text"><br> 
+                Phone Number:<input type="text"><br><br>
+                Zip Code:    <input type="text" id="zipCode"><span id = "zipCodeMsg"></span><br>
+                City:        <span id="city"></span>
+                <br>
+                Latitude:    <span id="latitude"></span>
+                <br>
+                Longitude:   <span id="longitude"></span>
+                <br><br>
+                State: 
+                <select id = "state">
+                    <option value="">Select One</option>
+                    <option value="ca"> California</option>
+                    <option value="ny"> New York</option>
+                    <option value="tx"> Texas</option>
+                    <option value="va"> Virginia</option>
+                </select><br />
+                
+                Select a County: <select id = "county"></select><br>
+                
+                Desired Username: <input type="text" id = "username"><span id = "usernameMsg"></span><br>
+                
+                Password: <input type="password" id = "password1"><span id = "passwordMsg"></span><br>
+                
+                Type Password Again: <input type="password" id = "password2"><span id = "passwordMsg2"></span><br>
+                
+                <input type="submit" id = "submit" value="Sign up!">
+                
+                <span id = "submitMsg"></span>
+            </fieldset>
+        </form>
+    
+    </body>
+    <footer>
+        <hr>
+        CST 336 Internet Programming 2018&copy; Peppmuller <br />
+            <strong> Disclaimer: </strong> This information on this webpage is used only for academic purposes. <br />
+    
+    </footer>
+</html>
