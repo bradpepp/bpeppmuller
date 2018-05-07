@@ -494,3 +494,31 @@ Stack trace:
 [28-Apr-2018 20:01:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab9/addUserAPI.php on line 4
 [28-Apr-2018 20:01:01 UTC] PHP Stack trace:
 [28-Apr-2018 20:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab9/addUserAPI.php:0
+[30-Apr-2018 21:51:37 UTC] PHP Fatal error:  Call to undefined function getAllPets() in /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php on line 10
+[30-Apr-2018 21:51:37 UTC] PHP Stack trace:
+[30-Apr-2018 21:51:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php:0
+[30-Apr-2018 21:51:39 UTC] PHP Fatal error:  Call to undefined function getAllPets() in /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php on line 10
+[30-Apr-2018 21:51:39 UTC] PHP Stack trace:
+[30-Apr-2018 21:51:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php:0
+[30-Apr-2018 21:58:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php on line 19
+[30-Apr-2018 21:58:29 UTC] PHP Stack trace:
+[30-Apr-2018 21:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php:0
+[30-Apr-2018 21:58:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php on line 19
+[30-Apr-2018 21:58:30 UTC] PHP Stack trace:
+[30-Apr-2018 21:58:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php:0
+[30-Apr-2018 22:09:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php on line 9
+[30-Apr-2018 22:09:19 UTC] PHP Stack trace:
+[30-Apr-2018 22:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php:0
+[30-Apr-2018 22:09:19 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php:39
+[30-Apr-2018 22:09:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php on line 9
+[30-Apr-2018 22:09:20 UTC] PHP Stack trace:
+[30-Apr-2018 22:09:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php:0
+[30-Apr-2018 22:09:20 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/bpeppmuller/labs/lab_10/pets.php:39
+[07-May-2018 01:56:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/pets.php on line 8
+[07-May-2018 01:56:50 UTC] PHP Stack trace:
+[07-May-2018 01:56:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/pets.php:0
+[07-May-2018 01:56:50 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/bpeppmuller/labs/lab10/pets.php:56
+[07-May-2018 01:58:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/pets.php on line 8
+[07-May-2018 01:58:15 UTC] PHP Stack trace:
+[07-May-2018 01:58:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/pets.php:0
+[07-May-2018 01:58:15 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/bpeppmuller/labs/lab10/pets.php:56

@@ -1,0 +1,195 @@
+[30-Apr-2018 22:20:43 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:20:43 UTC] PHP Stack trace:
+[30-Apr-2018 22:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:20:43 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:20:43 UTC] PHP Stack trace:
+[30-Apr-2018 22:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:20:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 4
+[30-Apr-2018 22:20:43 UTC] PHP Stack trace:
+[30-Apr-2018 22:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:20:56 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:20:56 UTC] PHP Stack trace:
+[30-Apr-2018 22:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:20:56 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:20:56 UTC] PHP Stack trace:
+[30-Apr-2018 22:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:20:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 4
+[30-Apr-2018 22:20:56 UTC] PHP Stack trace:
+[30-Apr-2018 22:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:21:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1' in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php(15): PDO->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 15
+[30-Apr-2018 22:21:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1' in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php(16): PDO->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 16
+[30-Apr-2018 22:22:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':id' at line 1' in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php(8): PDO->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/yfunaki/LABS/lab10/api/getPetInfo.php on line 8
+[07-May-2018 01:58:57 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 01:58:57 UTC] PHP Stack trace:
+[07-May-2018 01:58:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:58:57 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 01:58:57 UTC] PHP Stack trace:
+[07-May-2018 01:58:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:58:57 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 01:58:57 UTC] PHP Stack trace:
+[07-May-2018 01:58:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:03 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 01:59:03 UTC] PHP Stack trace:
+[07-May-2018 01:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:03 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 01:59:03 UTC] PHP Stack trace:
+[07-May-2018 01:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:03 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 01:59:03 UTC] PHP Stack trace:
+[07-May-2018 01:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:48 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 01:59:48 UTC] PHP Stack trace:
+[07-May-2018 01:59:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:48 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 01:59:48 UTC] PHP Stack trace:
+[07-May-2018 01:59:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:48 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 01:59:48 UTC] PHP Stack trace:
+[07-May-2018 01:59:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:59 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 01:59:59 UTC] PHP Stack trace:
+[07-May-2018 01:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:59 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 01:59:59 UTC] PHP Stack trace:
+[07-May-2018 01:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 01:59:59 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 01:59:59 UTC] PHP Stack trace:
+[07-May-2018 01:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:00:53 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:00:53 UTC] PHP Stack trace:
+[07-May-2018 02:00:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:00:53 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:00:53 UTC] PHP Stack trace:
+[07-May-2018 02:00:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:00:53 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:00:53 UTC] PHP Stack trace:
+[07-May-2018 02:00:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:01:03 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:01:03 UTC] PHP Stack trace:
+[07-May-2018 02:01:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:01:03 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:01:03 UTC] PHP Stack trace:
+[07-May-2018 02:01:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:01:03 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:01:03 UTC] PHP Stack trace:
+[07-May-2018 02:01:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:01:23 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:01:23 UTC] PHP Stack trace:
+[07-May-2018 02:01:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:01:23 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:01:23 UTC] PHP Stack trace:
+[07-May-2018 02:01:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:01:23 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:01:23 UTC] PHP Stack trace:
+[07-May-2018 02:01:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:02:38 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:02:38 UTC] PHP Stack trace:
+[07-May-2018 02:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:02:38 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:02:38 UTC] PHP Stack trace:
+[07-May-2018 02:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:02:38 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:02:38 UTC] PHP Stack trace:
+[07-May-2018 02:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:04:11 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:04:11 UTC] PHP Stack trace:
+[07-May-2018 02:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:04:11 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:04:11 UTC] PHP Stack trace:
+[07-May-2018 02:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:04:11 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:04:11 UTC] PHP Stack trace:
+[07-May-2018 02:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:04:16 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:04:16 UTC] PHP Stack trace:
+[07-May-2018 02:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:04:16 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:04:16 UTC] PHP Stack trace:
+[07-May-2018 02:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:04:16 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:04:16 UTC] PHP Stack trace:
+[07-May-2018 02:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:09:48 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:09:48 UTC] PHP Stack trace:
+[07-May-2018 02:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:09:48 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:09:48 UTC] PHP Stack trace:
+[07-May-2018 02:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:09:48 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:09:48 UTC] PHP Stack trace:
+[07-May-2018 02:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:10:42 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:10:42 UTC] PHP Stack trace:
+[07-May-2018 02:10:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:10:42 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:10:42 UTC] PHP Stack trace:
+[07-May-2018 02:10:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:10:42 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:10:42 UTC] PHP Stack trace:
+[07-May-2018 02:10:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:11:13 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:11:13 UTC] PHP Stack trace:
+[07-May-2018 02:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:11:13 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:11:13 UTC] PHP Stack trace:
+[07-May-2018 02:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:11:13 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:11:13 UTC] PHP Stack trace:
+[07-May-2018 02:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:11:20 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:11:20 UTC] PHP Stack trace:
+[07-May-2018 02:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:11:20 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:11:20 UTC] PHP Stack trace:
+[07-May-2018 02:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:11:20 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:11:20 UTC] PHP Stack trace:
+[07-May-2018 02:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:20:18 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:20:18 UTC] PHP Stack trace:
+[07-May-2018 02:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:20:18 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:20:18 UTC] PHP Stack trace:
+[07-May-2018 02:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:20:18 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:20:18 UTC] PHP Stack trace:
+[07-May-2018 02:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:22:05 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:22:05 UTC] PHP Stack trace:
+[07-May-2018 02:22:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:22:05 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:22:05 UTC] PHP Stack trace:
+[07-May-2018 02:22:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:22:05 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:22:05 UTC] PHP Stack trace:
+[07-May-2018 02:22:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:24:26 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:24:26 UTC] PHP Stack trace:
+[07-May-2018 02:24:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:24:26 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:24:26 UTC] PHP Stack trace:
+[07-May-2018 02:24:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:24:26 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:24:26 UTC] PHP Stack trace:
+[07-May-2018 02:24:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:26:52 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:26:52 UTC] PHP Stack trace:
+[07-May-2018 02:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:26:52 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 3
+[07-May-2018 02:26:52 UTC] PHP Stack trace:
+[07-May-2018 02:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
+[07-May-2018 02:26:52 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php on line 5
+[07-May-2018 02:26:52 UTC] PHP Stack trace:
+[07-May-2018 02:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/bpeppmuller/labs/lab10/api/getPetInfo.php:0
