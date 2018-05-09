@@ -23,7 +23,12 @@
             <br/>
             <input type = "submit" name = "submitForm" value = "Login!"/>
         </form>
+        <br/>
         
+                
+
+         <input type="button" onclick="location.href='../index.php';" value="Home Page" />
+        <br/>
         <?php
             if(isset($_SESSION['wrong']))
             {
